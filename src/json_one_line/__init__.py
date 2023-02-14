@@ -16,4 +16,4 @@ finally:
     del version, PackageNotFoundError
 
 
-from util import json_load, json_save
+from .util import json_load, json_save
